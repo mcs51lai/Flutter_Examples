@@ -10,9 +10,6 @@ on:
 jobs:
   flutter-ci:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: Hello World
 
     steps:
       - name: Checkout
